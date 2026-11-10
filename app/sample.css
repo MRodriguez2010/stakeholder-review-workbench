@@ -1,0 +1,15 @@
+.patio { background: #f8f3e6; color: #262e24; font-family: system-ui,sans-serif; }
+.patio header { display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 7vw; border-bottom: 1px solid #a9ac94; }
+.patio header button { border: 1px solid #6e775f; color: inherit; background: transparent; padding: .4rem 1rem; border-radius: 2rem; }
+.patio .patio-hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 4vw; min-height: 65vh; padding: 5rem 7vw; background: #f8f3e6; color: #262e24; }
+.patio h1,.patio h2 { font-family: Georgia,serif; font-weight: normal; letter-spacing: -.04em; line-height: .98; color: inherit; }
+.patio h1 { margin: 1.25rem 0; font-size: clamp(3.4rem,6.8vw,7rem); }
+.patio h2 { margin: 1rem 0; font-size: clamp(2.5rem,4vw,4rem); }
+.patio-print { position: relative; width: 100%; aspect-ratio: 1.2; overflow: hidden; background: #e0aa45; }
+.patio-print i,.patio-print b,.patio-print span { position: absolute; display: block; }
+.patio-print i { width: 48%; height: 74%; bottom: 0; left: 11%; border-radius: 50% 50% 0 0; background: #954726; }
+.patio-print b { width: 24%; height: 54%; bottom: 0; left: 23%; border-radius: 50% 50% 0 0; background: #f2ce7c; }
+.patio-print span { width: 29%; aspect-ratio: 1; top: 9%; right: 8%; border-radius: 50%; background: #506746; }
+.patio-program,.patio-visit { padding: 4rem 7vw; border-top: 1px solid #a9ac94; }
+.patio-visit { background: #263e32; color: #f8f3e6; }
+@media(max-width:700px) { .patio .patio-hero { grid-template-columns: 1fr; padding-block: 3rem; } }
